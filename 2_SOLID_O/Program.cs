@@ -11,8 +11,8 @@ PrestamoBancarioNotSolid prestamoPersonalReformaNotSolid = new() { Tipo = TipoPr
 Console.WriteLine(prestamoPersonalReformaNotSolid.Descripcion());
 
 //si necesitamos introducir otro tipo de préstamo bancario, tendríamos que abrir la clase PréstamoBancario y modificarla y eso VIOLA el principio.
-//PrestamoBancarioNotSolid prestamoHipotecario = new() { Tipo = TipoPrestamo.Hipoteca, Monto = 100000 };
-//Console.WriteLine(prestamoHipotecario.Descripcion());
+PrestamoBancarioNotSolid prestamoHipotecarioNotSolid = new() { Tipo = TipoPrestamo.Hipoteca, Monto = 100000 };
+Console.WriteLine(prestamoHipotecarioNotSolid.Descripcion());
 
 //lo suyo sería... que PrestamoBancario sea abstracto e ir implementando los tipos en base a dicha clase
 
