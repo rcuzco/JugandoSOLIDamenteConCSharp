@@ -18,7 +18,8 @@ internal class GestionImpresionNotSolid
 {
     internal void ObtenerInformacion(PrestamoPersonal prestamoPersonal)
     {
-        Console.WriteLine($"Código maravilloso para mostrar la información de este préstamo: Monto solicitado: {prestamoPersonal.Monto} a un interés del {prestamoPersonal.PorcentajeInteres}%");
+        Console.WriteLine($"Código maravilloso para mostrar la información de este préstamo: Monto solicitado: " +
+            $"{prestamoPersonal.Monto} a un interés del {prestamoPersonal.PorcentajeInteres}%");
     }
 
     internal void ObtenerInformacion(PrestamoHipotecario prestamoHipotecario)

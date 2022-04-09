@@ -11,7 +11,10 @@ internal class UserService
     private readonly UserRespositoryService _userRespositoryService;
     private readonly CacheService _cacheService;
 
-    public UserService(EmailService emailService, EncryptionService encryptionService, UserRespositoryService userRespositoryService, CacheService cacheService)
+    public UserService(EmailService emailService,
+                       EncryptionService encryptionService,
+                       UserRespositoryService userRespositoryService,
+                       CacheService cacheService)
     {
         _emailService = emailService;
         _encryptionService = encryptionService;

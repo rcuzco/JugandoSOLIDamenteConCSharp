@@ -11,9 +11,7 @@ internal abstract class Prestamo
 {
     public abstract int Monto { get; set; }
     public abstract int PorcentajeInteres { get; set; }
-
 }
-
 
 internal class PrestamoPersonal : Prestamo, IInformacionObtenible
 {
